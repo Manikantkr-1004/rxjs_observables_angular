@@ -1,0 +1,14 @@
+<div id="parent" *ngIf="data.length>0">
+    <div *ngFor="let item of data">
+        <h3>{{item.name}}</h3>
+        <h3>{{item.email}}</h3>
+        <h3>{{item.address.street}}</h3>
+        <h3>{{item.phone}}</h3>
+        <h3>{{item.website}}</h3>
+        <h3>{{item.company.name}}</h3>
+    </div>
+</div>
+
+<div id="error" *ngIf="error!==''">
+    {{error}}
+</div>

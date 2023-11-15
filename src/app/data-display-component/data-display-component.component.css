@@ -1,0 +1,18 @@
+#parent{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#parent>div{
+    border: 1px solid #8a8a8a;
+    background: #f3f3f3;
+    padding: 15px;
+    border-radius: 10px;
+}
+#error{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
